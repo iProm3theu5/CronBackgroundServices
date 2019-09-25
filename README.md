@@ -1,6 +1,8 @@
 # Cron Based Background Services in .Net Core 3
 ## Providing recurrent scoped services.
 
+Utilises [NCrontab](https://github.com/atifaziz/NCrontab) for underlying Cron support.
+
 ```csharp
 using System;
 using System.Threading.Tasks;
