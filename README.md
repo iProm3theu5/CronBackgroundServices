@@ -1,7 +1,8 @@
-# Cron Based Background Services in .Net Core 3
+![nuget_image](https://img.shields.io/nuget/v/Prom3theu5.CronBasedHostedServices.svg)
+## Cron Based Background Services in .Net Core 3
 ## Providing recurrent scoped services.
 
-Utilises [NCrontab](https://github.com/atifaziz/NCrontab) for underlying Cron support.
+
 
 ```csharp
 using System;
@@ -33,3 +34,5 @@ namespace Example
     }
 }
 ````
+
+Utilises [NCrontab](https://github.com/atifaziz/NCrontab) for underlying Cron support.
